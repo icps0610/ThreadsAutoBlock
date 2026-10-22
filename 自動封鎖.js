@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name         [ threads ] 自動封鎖 (自適應彈出層定位)
+// @name         [ threads ] 自動封鎖，進入個人檔案就開始進行封鎖，若為「解除封鎖」則自動中止
 // @namespace    http://tampermonkey.net/
 // @version      2.5
-// @description  [ threads ] 自動封鎖，支援動態視窗與彈出層語意定位，若為「解除封鎖」則自動中止
+// @description  [ threads ] 自動封鎖，進入個人檔案就開始進行封鎖，若為「解除封鎖」則自動中止
 // @author       Gemini User
 // @match        https://www.threads.com/@*
 // @grant        none
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=www.threads.com
 // ==/UserScript==
 
 (function() {
